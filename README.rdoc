@@ -1,0 +1,6 @@
+= Watchy
+
+A small ruby application used to poll heroku applications to prevent them from sleeping.
+Watchy shouold be setup to run as a cron job. Here's an example
+
+  0/30 * * * *  /path_to/watchy.rb
