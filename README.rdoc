@@ -1,6 +1,7 @@
 = Watchy
 
 A small ruby application used to poll heroku applications to prevent them from sleeping.
-Watchy shouold be setup to run as a cron job. Here's an example
+
+Watchy can be run manually, although it's easier to set it up to run as a cron job. Here's an example of a cron tab entry for watchy to have it run every 30 mins.
 
   0/30 * * * *  /path_to/watchy.rb
