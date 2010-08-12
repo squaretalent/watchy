@@ -17,7 +17,7 @@ heroku.list.each do |domain,account|
   if(request.status[0] == "200")
     puts "touched #{domain}.heroku.com"
   else
-    raise "domain #{domain}.heroku.com is down"
+    warn "domain #{domain}.heroku.com is down"
   end
   
 end
