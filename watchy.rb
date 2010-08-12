@@ -1,4 +1,4 @@
-#!/opt/ruby/current/bin ruby
+#!/usr/bin/env ruby
 $VERBOSE = nil
 
 require 'rubygems'
