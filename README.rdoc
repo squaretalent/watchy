@@ -1,4 +1,4 @@
-= Watchy
+= watchy
 
 A small ruby application used to poll heroku applications to prevent them from sleeping.
 
